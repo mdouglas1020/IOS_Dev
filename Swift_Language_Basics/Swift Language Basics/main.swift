@@ -7,6 +7,8 @@
 //
 
 import Foundation
+func greet(person name: String, greeting: String) -> String
+{ let hello = greeting + name; return hello;}
 
 let sample1 = 0x3A;
 var sample2 = 58;
@@ -84,6 +86,12 @@ while age < 6 {
 }
 
 print("\(greeting) \(name)");
+
+
+
+let greet_: String = "Hello ";
+let name_: String = "Karen";
+//greet(person: name_, greeting: greet_);
 
 
 
