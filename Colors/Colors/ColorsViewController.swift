@@ -9,6 +9,8 @@
 import UIKit
 
 class ColorsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+   
+    @IBOutlet weak var colorsTableView: UITableView!
     var colors = ["red", "orange", "yellow", "green", "blue", "purple", "brown"]
     var backgroundColor = [UIColor.red, UIColor.orange, UIColor.yellow, UIColor.green, UIColor.blue, UIColor.purple, UIColor.brown]
     
@@ -35,15 +37,16 @@ class ColorsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.backgroundColor = backgroundColor[indexPath.row]
         return cell
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if let destination = segue.destination as? ColorDetailViewController,
+            let row = colorsTableView.indexPathForSelectedRow?.row {
+            destination.colorNames = colors[row]
+            destination.backgroundColor = backgroundColor[row]
+        }
+        
     }
-    */
+
+  
 
 }

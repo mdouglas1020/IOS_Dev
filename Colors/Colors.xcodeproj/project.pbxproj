@@ -12,6 +12,7 @@
 		61E6BB601F9A6D67005CAF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E6BB5F1F9A6D67005CAF8D /* Assets.xcassets */; };
 		61E6BB631F9A6D67005CAF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E6BB611F9A6D67005CAF8D /* LaunchScreen.storyboard */; };
 		61E6BB6B1F9A6E31005CAF8D /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6BB6A1F9A6E31005CAF8D /* ColorsViewController.swift */; };
+		61E6BB8D1FA14CC2005CAF8D /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6BB8C1FA14CC2005CAF8D /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		61E6BB621F9A6D67005CAF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61E6BB641F9A6D67005CAF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61E6BB6A1F9A6E31005CAF8D /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		61E6BB8C1FA14CC2005CAF8D /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				61E6BB5F1F9A6D67005CAF8D /* Assets.xcassets */,
 				61E6BB611F9A6D67005CAF8D /* LaunchScreen.storyboard */,
 				61E6BB641F9A6D67005CAF8D /* Info.plist */,
+				61E6BB8C1FA14CC2005CAF8D /* ColorDetailViewController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E6BB8D1FA14CC2005CAF8D /* ColorDetailViewController.swift in Sources */,
 				61E6BB6B1F9A6E31005CAF8D /* ColorsViewController.swift in Sources */,
 				61E6BB591F9A6D66005CAF8D /* AppDelegate.swift in Sources */,
 			);
